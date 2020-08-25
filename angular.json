@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Room"
+    }
+  },
+  "defaultProject": "Room",
+  "cli": {
+    "analytics": false
+  }
 }
