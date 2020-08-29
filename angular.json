@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/tailwindcss/tailwind.css",
+              "node_modules/tailwindcss/dist/tailwind.min.css"
             ],
             "scripts": []
           },
@@ -128,6 +130,7 @@
   },
   "defaultProject": "Room",
   "cli": {
+    "defaultCollection": "@ngrx/schematics",
     "analytics": false
   }
 }

@@ -1,0 +1,12 @@
+$sideNavWidth: 18%;
+
+mat-drawer-container {
+  height: 100vh;
+  mat-drawer {
+    width: $sideNavWidth;
+  }
+  mat-drawer-content {
+    width: 100% - $sideNavWidth;
+  }
+}
+

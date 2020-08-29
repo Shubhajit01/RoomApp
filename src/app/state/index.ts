@@ -1,4 +1,5 @@
 import * as fromChatList from './ChatList/chatlist.reducer';
+import * as fromChatRoom from './ChatRoom/chatroom.reducer';
 
 import {
   ActionReducerMap,
@@ -8,31 +9,11 @@ import {
 
 export interface AppState {
   chatsList: fromChatList.ChatListState;
+  chatRoom: fromChatRoom.UserChatState;
 }
 
 export const reducers: ActionReducerMap<AppState> = {
-  chatsList: fromChatList.reducer
+  chatsList: fromChatList.reducer,
+  chatRoom: fromChatRoom.reducer
 };
 
-/**
- * ChatsList Selectors
- */
-export const chatListSelector = createFeatureSelector<
-  fromChatList.ChatListState
->('chatsList');
-
-export const getChatList = createSelector(
-  chatListSelector,
-  fromChatList.selectAllChats
-);
-
-export const getActiveChat = createSelector(
-  chatListSelector,
-  fromChatList.selectActiveChat
-);
-
-export const selectBasedOnKeywords = (keyword) => {
-  return createSelector(getChatList, (chats) =>
-    chats.filter((chat) => chat.user.includes(keyword))
-  );
-};

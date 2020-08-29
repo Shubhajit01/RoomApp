@@ -1,6 +1,5 @@
+import { Chat, User } from './chatlist.reducer';
 import { createAction, props } from '@ngrx/store';
-
-import { Chat } from './chatlist.reducer';
 
 export const selectChat = createAction(
   '[ChatList] Select Chat',
@@ -11,3 +10,12 @@ export const loadChatList = createAction(
   '[ChatList] Load List',
   props<{ chatList: Chat[] }>()
 );
+
+export const loadUsers = createAction(
+  '[ChatList] Load Users',
+  props<{ users: User[] }>()
+);
+
+export const toggleSearchBox = createAction('[ChatList] Toggle SearchBox');
+
+export const toggleAddChat = createAction('[ChatList] Toggle Add Chat Dialog');

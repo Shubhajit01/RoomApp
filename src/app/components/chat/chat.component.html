@@ -1,0 +1,35 @@
+<div
+  class="flex p-3 items-center cursor-pointer chat-card"
+  [ngClass]="{
+    'bg-blue-700': isActive,
+    'hover:bg-gray-800': !isActive,
+    'mb-2': !isLast
+  }"
+>
+  <div class="w-1/5">
+    <img [src]="chat.image ? chat.image : defaultImage" class="border-white" />
+  </div>
+  <div class="w-4/5 flex flex-col justify-center leading-6">
+    <div class="flex">
+      <div
+        class="w-11/12 text-base tracking-wide capitalize truncate"
+        [ngClass]="{
+          'text-white': isActive,
+          'text-gray-400': !isActive
+        }"
+        [title]="chat.user"
+      >
+        {{ chat.user }}
+      </div>
+      <div
+        class="w-1/12 text-white icons hover:text-blue-200"
+        title="Delete Chat"
+      >
+        <mat-icon inline="true">delete_forever</mat-icon>
+      </div>
+    </div>
+    <div class="text-gray-500 text-xs pr-2 truncate" [title]="chat.lastMessage">
+      {{ chat.lastMessage }}
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+.mat-icon {
+  font-size: 30px;
+  top: calc(50% - 15px);
+  left: 13px;
+}
+
+.input-container {
+  top: 40%;
+  .suggestions {
+    max-height: 300px;
+  }
+}

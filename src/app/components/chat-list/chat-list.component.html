@@ -1,56 +1,42 @@
+<app-user-search *ngIf="showAddChat$ | async"></app-user-search>
 <div
   class="bg-gray-900 w-full h-full shadow-inner p-2 overflow-y-scroll chat-list-container"
 >
   <div class="flex justify-between p-2 text-gray-300 border-b mb-2">
     <p class="text-lg">Recent Chats</p>
-    <mat-icon
-      class="cursor-pointer hover:text-blue-200"
-      (click)="toggleSearchBox()"
-      [innerText]="showSearchBox ? 'search_off' : 'search'"
-      [title]="showSearchBox ? 'Cancel Search' : 'Search Chats'"
-    ></mat-icon>
+    <div>
+      <mat-icon
+        class="cursor-pointer hover:text-blue-200 mr-3"
+        (click)="toggleSearchBox()"
+        [innerText]="(showSearchBox$ | async) ? 'search_off' : 'search'"
+        [title]="(showSearchBox$ | async) ? 'Cancel Search' : 'Search Chats'"
+      ></mat-icon>
+      <mat-icon
+        (click)="toggleAddChatDialog()"
+        class="cursor-pointer hover:text-blue-200"
+        title="Create New Room"
+        >person_add</mat-icon
+      >
+    </div>
   </div>
-  <div @expand *ngIf="showSearchBox" class="origin-top overflow-y-hidden mb-2">
+  <div
+    @expand
+    *ngIf="showSearchBox$ | async"
+    class="origin-top overflow-y-hidden mb-2"
+  >
     <input
-      #searchBox
       (keyup.escape)="toggleSearchBox()"
       class="border border-gray-400 focus:border-blue-500 bg-white text-gray-900 appearance-none inline-block w-full rounded py-2 px-3 focus:outline-none"
       placeholder="Search chats..."
+      [formControl]="searchBox"
     />
   </div>
-  <div
+
+  <app-chat
     *ngFor="let chat of chatsList$ | async; index as index; last as isLast"
-    class="flex p-3 items-center cursor-pointer"
-    [ngClass]="{
-      'bg-blue-700': index === (activeChatIndex$ | async),
-      'hover:bg-gray-800': index !== (activeChatIndex$ | async),
-      'mb-2': !isLast
-    }"
+    [chat]="chat"
+    [isLast]="isLast"
+    [isActive]="index === (activeChatIndex$ | async)"
     (click)="selectChat(index)"
-  >
-    <div class="w-1/5">
-      <img
-        [src]="chat.image ? chat.image : defaultImage"
-        class="border-white"
-      />
-    </div>
-    <div class="w-4/5 flex flex-col justify-center leading-6">
-      <div
-        class="text-base tracking-wide capitalize pr-2 truncate"
-        [ngClass]="{
-          'text-white': index === (activeChatIndex$ | async),
-          'text-gray-400': index !== (activeChatIndex$ | async)
-        }"
-        [title]="chat.user"
-      >
-        {{ chat.user }}
-      </div>
-      <div
-        class="text-gray-500 text-xs pr-2 truncate"
-        [title]="chat.lastMessage"
-      >
-        {{ chat.lastMessage }}
-      </div>
-    </div>
-  </div>
+  ></app-chat>
 </div>
