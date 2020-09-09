@@ -1,0 +1,12 @@
+.loader {
+  animation: spin 1s linear infinite;
+  position: absolute;
+  left: calc(50% - 50px);
+  top: calc(50% - 50px);
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

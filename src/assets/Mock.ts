@@ -361,282 +361,327 @@ export const RECENT_CHATS = [
 export const USER_CHAT = [
   {
     message:
-      'Mollit ea dolore ad irure adipisicing et nostrud nostrud dolore voluptate sint.',
+      'Exercitation non fugiat incididunt qui est aliqua ullamco irure et ea fugiat ut.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135936537c09ce6775a'
   },
   {
-    message:
-      'Amet nulla deserunt nisi ex labore velit culpa labore dolor sit veniam fugiat qui.',
+    message: 'Dolore deserunt tempor quis minim excepteur nostrud.',
     isCurrentUser: true,
-    time: '00:00'
-  },
-  {
-    message: 'Ea esse minim cupidatat enim eu ex amet et ea.',
-    isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135711718950bc7c670'
   },
   {
     message:
-      'Est amet incididunt in laborum et commodo ex consequat deserunt aliqua velit.',
-    isCurrentUser: false,
-    time: '00:00'
-  },
-  {
-    message:
-      'Eu eu occaecat Lorem dolore non ipsum adipisicing veniam consequat do esse velit excepteur.',
+      'Pariatur commodo ullamco non ullamco minim sit qui in cillum incididunt.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a71358a9e1a9c0e2fee47'
   },
   {
-    message: 'Ea elit veniam do non ea elit id labore in id enim ex enim.',
+    message: 'Nulla do nostrud do incididunt ex enim.',
+    isCurrentUser: false,
+    time: '00:00',
+    id: '5f4a71351ad838d1bd92d1f1'
+  },
+  {
+    message:
+      'Laboris adipisicing qui elit voluptate veniam dolor proident nostrud mollit enim eu.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a713551b8429b66afa13a'
   },
   {
-    message:
-      'Magna voluptate incididunt velit ad excepteur veniam quis consectetur esse sint aliquip.',
+    message: 'Qui ad nisi cillum ea sunt aute.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a71355960bd0ed4faf65f'
   },
   {
-    message:
-      'Laborum Lorem do irure do officia commodo sit ea Lorem ex cupidatat exercitation in officia.',
+    message: 'Ea velit velit amet ut ipsum anim excepteur eiusmod do tempor.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135f7c2c342d4a12f08'
   },
   {
-    message:
-      'Lorem occaecat eu ut do qui ullamco aliquip sit qui culpa minim cupidatat.',
-    isCurrentUser: false,
-    time: '00:00'
-  },
-  {
-    message: 'Labore et Lorem exercitation aliqua duis cupidatat.',
-    isCurrentUser: false,
-    time: '00:00'
-  },
-  {
-    message:
-      'Ex esse quis esse do reprehenderit anim nulla veniam sunt tempor consectetur tempor.',
-    isCurrentUser: false,
-    time: '00:00'
-  },
-  {
-    message: 'Mollit aliqua eu excepteur ex laboris.',
+    message: 'Et aliquip laborum ea sint excepteur esse sunt qui aliquip qui.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135fac196c8e5aaac4c'
   },
   {
-    message: 'Exercitation sit ea nostrud consequat et anim labore est.',
-    isCurrentUser: true,
-    time: '00:00'
-  },
-  {
-    message:
-      'Sit cupidatat incididunt reprehenderit sunt consectetur officia pariatur ut est occaecat amet mollit proident.',
-    isCurrentUser: true,
-    time: '00:00'
-  },
-  {
-    message: 'Eu laboris fugiat qui velit ullamco consectetur.',
-    isCurrentUser: true,
-    time: '00:00'
-  },
-  {
-    message:
-      'Eu cupidatat proident aute sit aute reprehenderit dolore aliquip aliqua.',
+    message: 'Lorem sit excepteur irure ullamco laboris.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135439c95d3a3e654f0'
   },
   {
-    message: 'Labore velit reprehenderit qui esse magna ea veniam enim.',
+    message: 'Fugiat culpa labore ad commodo.',
     isCurrentUser: false,
-    time: '00:00'
-  },
-  {
-    message: 'Dolor excepteur nisi commodo labore anim.',
-    isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a713537e9d552ee625ec4'
   },
   {
     message:
-      'In aliquip anim deserunt proident labore ullamco laborum consequat fugiat ea Lorem enim sunt mollit.',
-    isCurrentUser: false,
-    time: '00:00'
-  },
-  {
-    message: 'Lorem minim qui deserunt mollit qui.',
-    isCurrentUser: false,
-    time: '00:00'
-  },
-  {
-    message:
-      'Aliquip commodo labore fugiat proident consectetur enim Lorem nostrud proident officia nulla.',
+      'Nulla Lorem id ea proident exercitation nulla elit pariatur qui ea ea aute officia aliquip.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135fe2d221a6fb4dd56'
   },
   {
-    message:
-      'Anim fugiat et aute ullamco aliqua irure sunt nulla tempor non nostrud eu incididunt.',
+    message: 'Quis occaecat anim magna excepteur.',
     isCurrentUser: false,
-    time: '00:00'
-  },
-  {
-    message: 'Aute adipisicing esse aute commodo.',
-    isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a71357fa42ec539d8cb0e'
   },
   {
     message:
-      'Proident aute consequat pariatur esse irure eiusmod aute nisi amet sunt ea.',
+      'Fugiat tempor Lorem aliquip esse duis duis consequat sit sint consequat ex sint elit incididunt.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a71350dd000660986e491'
   },
   {
-    message:
-      'Consectetur dolore proident in enim consequat commodo amet labore.',
+    message: 'Lorem fugiat est laboris sint incididunt dolor occaecat elit.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135b5bde97315ebcd22'
   },
   {
-    message: 'Laborum enim in aute cillum consequat.',
+    message: 'Exercitation consequat adipisicing amet qui.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a71350c26af7725fa45d4'
   },
   {
-    message:
-      'Aliquip cillum mollit est elit dolore amet nisi eu excepteur aliqua in labore.',
+    message: 'Lorem dolor cillum eiusmod ut pariatur.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135c5bca0bee1d2b977'
   },
   {
-    message: 'Proident ipsum aliquip aute consectetur elit in sit id velit.',
+    message:
+      'Cillum laborum sit est sunt nostrud reprehenderit elit duis cupidatat nostrud aliqua ex.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135114f155b490ddc54'
+  },
+  {
+    message: 'Magna minim id minim cillum qui dolore cupidatat.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a713573ce2295916d7fd7'
   },
   {
     message:
-      'Consectetur sit duis consequat nisi consectetur ut quis et sunt occaecat.',
+      'Ad nulla veniam anim nostrud pariatur veniam voluptate exercitation laboris.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135008511ec088cdf2a'
   },
   {
-    message:
-      'Sit consectetur cupidatat eu do nisi ipsum aute sit enim pariatur anim.',
-    isCurrentUser: true,
-    time: '00:00'
-  },
-  {
-    message: 'Est pariatur qui est nulla labore Lorem incididunt adipisicing.',
+    message: 'Consectetur do aliquip aute eiusmod qui non.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135bb9953536b020fcc'
   },
   {
-    message:
-      'Aliqua nostrud laborum ea non velit sint esse adipisicing aliquip cillum anim nisi.',
+    message: 'Laboris quis labore consequat aliquip.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135bcbb9ad88ac6a9a6'
   },
   {
     message:
-      'Ad cupidatat incididunt labore pariatur aliqua non exercitation velit nostrud enim.',
+      'Esse culpa quis aliquip ullamco cupidatat quis sint nisi pariatur aliquip incididunt ipsum exercitation.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a71354624987774a436b7'
   },
   {
-    message:
-      'Sunt ex cillum laboris veniam deserunt et ut eu quis pariatur amet.',
-    isCurrentUser: true,
-    time: '00:00'
-  },
-  {
-    message:
-      'Deserunt nisi velit veniam laboris velit tempor ea commodo deserunt.',
+    message: 'Pariatur in pariatur eu dolor nulla non sit officia deserunt.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135e08377f58758a956'
   },
   {
-    message:
-      'Ipsum sint non laboris dolor id cillum proident cupidatat non laborum ad tempor aliquip.',
-    isCurrentUser: true,
-    time: '00:00'
-  },
-  {
-    message:
-      'Sint do cupidatat exercitation est ea laboris fugiat ad laborum ad voluptate.',
+    message: 'Fugiat veniam nulla dolore nostrud veniam occaecat.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135f10aa2b3034ecb04'
   },
   {
-    message: 'Sit do mollit sint id ex quis commodo duis in dolore.',
+    message: 'Qui consequat minim elit eu exercitation.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a713597cd39602dad3ae1'
   },
   {
     message:
-      'Officia mollit est cupidatat nulla ut ad ut incididunt occaecat ex eiusmod ullamco.',
+      'Cillum velit ut deserunt ullamco magna elit cupidatat mollit ut consequat cillum veniam ex amet.',
+    isCurrentUser: false,
+    time: '00:00',
+    id: '5f4a713552ac72926cdd79e3'
+  },
+  {
+    message: 'Aute eiusmod anim aute ut.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135373530b604bfeb37'
   },
   {
     message:
-      'Fugiat laborum labore cillum laboris velit labore ipsum nisi voluptate aliquip ullamco.',
+      'Nisi amet ipsum in fugiat proident est qui aute duis consequat laborum ipsum.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135b3d574dbb4e5ba35'
   },
   {
     message:
-      'Deserunt elit nisi laboris consectetur nostrud amet fugiat duis ad laboris sint.',
-    isCurrentUser: true,
-    time: '00:00'
+      'Mollit non mollit nisi et ea cillum nisi consectetur aliqua magna do.',
+    isCurrentUser: false,
+    time: '00:00',
+    id: '5f4a7135e3c6e24cd9a7bec2'
   },
   {
-    message: 'Duis sunt sint aute ea amet id ex ipsum incididunt pariatur.',
-    isCurrentUser: true,
-    time: '00:00'
+    message: 'Lorem anim laboris ea enim pariatur nisi.',
+    isCurrentUser: false,
+    time: '00:00',
+    id: '5f4a71351f2f00aa3e18b205'
   },
   {
     message:
-      'Reprehenderit aliquip ea cupidatat laborum aliqua commodo quis officia commodo magna commodo nulla officia magna.',
+      'Minim incididunt quis deserunt minim anim ullamco velit pariatur adipisicing occaecat ut culpa velit.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a71357ad51b717dbdc9d8'
   },
   {
     message:
-      'Eiusmod ad Lorem magna reprehenderit excepteur labore fugiat est culpa.',
-    isCurrentUser: false,
-    time: '00:00'
-  },
-  {
-    message: 'Aliqua irure est ad est.',
-    isCurrentUser: false,
-    time: '00:00'
+      'Sit aute ea ut laboris magna ad nostrud non non eiusmod velit id adipisicing.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135a80e2b571bc2df6c'
   },
   {
     message:
-      'Irure dolor minim occaecat eiusmod id fugiat exercitation laboris aliqua proident.',
+      'Labore Lorem do ad nisi enim non cillum cupidatat excepteur magna duis proident.',
     isCurrentUser: true,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135f48f5fa6e0ac468f'
   },
   {
-    message: 'Pariatur aute nostrud qui enim esse.',
-    isCurrentUser: true,
-    time: '00:00'
-  },
-  {
-    message: 'Elit adipisicing tempor tempor quis ea.',
-    isCurrentUser: true,
-    time: '00:00'
-  },
-  {
-    message: 'Id irure cillum ut laborum mollit esse magna ea.',
+    message: 'Commodo ipsum in est occaecat.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135aa0e27ee2f757eca'
   },
   {
-    message: 'Do minim eu dolore id proident irure pariatur labore Lorem quis.',
+    message:
+      'Dolore velit excepteur laboris ex pariatur culpa consectetur tempor ut sint.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135953f96a309add264'
+  },
+  {
+    message:
+      'Velit cupidatat pariatur commodo mollit eu Lorem duis proident pariatur qui velit sit.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a713513f642d061511a4f'
+  },
+  {
+    message: 'Consectetur sunt tempor non in tempor.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135ca9f87aabe57beb2'
+  },
+  {
+    message:
+      'Labore amet minim deserunt commodo proident cupidatat officia occaecat aliqua.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a713574213d7fe41f4887'
+  },
+  {
+    message:
+      'Ut ullamco veniam dolore elit nostrud consectetur adipisicing et commodo Lorem magna.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135628f17743dc1d5a8'
+  },
+  {
+    message: 'Ipsum eu eiusmod Lorem culpa aliquip quis.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a71351f54343914d0a9a0'
+  },
+  {
+    message:
+      'Quis quis officia quis commodo sit deserunt irure voluptate et id.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135314655e549cb8e3f'
+  },
+  {
+    message:
+      'Ut sunt qui nisi nulla ad id irure est excepteur eiusmod sunt mollit qui nisi.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135086c9c3d8d7aaa4d'
+  },
+  {
+    message:
+      'Qui tempor consequat amet excepteur voluptate nisi ut cupidatat deserunt labore Lorem.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135d87c1f600ba56ca5'
+  },
+  {
+    message:
+      'Sunt reprehenderit id occaecat occaecat nulla cillum nulla esse quis amet nostrud dolore anim.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135b34ae061dbc3f378'
+  },
+  {
+    message:
+      'Consectetur irure amet amet ipsum anim cupidatat elit qui exercitation ipsum et enim.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135a27ed12d756cbc2c'
+  },
+  {
+    message: 'Ut dolor anim mollit occaecat officia veniam.',
     isCurrentUser: false,
-    time: '00:00'
+    time: '00:00',
+    id: '5f4a7135678da735fd96b486'
+  },
+  {
+    message: 'Occaecat consequat ullamco ad proident nostrud.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135600da818955a92f0'
+  },
+  {
+    message: 'Eiusmod ut do enim id velit labore laborum.',
+    isCurrentUser: false,
+    time: '00:00',
+    id: '5f4a71353f514dac938b2c17'
+  },
+  {
+    message:
+      'Nostrud dolor duis ullamco officia dolor ea elit deserunt aliqua mollit.',
+    isCurrentUser: true,
+    time: '00:00',
+    id: '5f4a7135caa7ab5f54cee712'
+  },
+  {
+    message:
+      'Aliquip ut consequat elit sit esse irure velit sit dolor commodo aliquip quis exercitation enim.',
+    isCurrentUser: false,
+    time: '00:00',
+    id: '5f4a71351b74907622858b94'
   }
 ];

@@ -49,3 +49,9 @@ export const selectUserOnKeyword = (keyword) => {
     )
   );
 };
+
+export const selectActiveUser = createSelector(
+  selectChatList,
+  selectActiveChat,
+  (chatList, activeChatIndex) => chatList[activeChatIndex]
+);

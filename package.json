@@ -26,7 +26,13 @@
     "@ngrx/schematics": "^10.0.0",
     "@ngrx/store": "^10.0.0",
     "@ngrx/store-devtools": "^10.0.0",
+    "@types/socket.io": "^2.1.11",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "expess": "0.0.1-security",
+    "ngx-socket-io": "^3.2.0",
     "rxjs": "~6.5.5",
+    "socket.io": "^2.3.0",
     "tailwindcss": "^1.7.3",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"

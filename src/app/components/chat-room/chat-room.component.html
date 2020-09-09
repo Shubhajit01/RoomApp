@@ -1,0 +1,51 @@
+<app-loader *ngIf="showLoader$ | async; else chatBox"></app-loader>
+<ng-template #chatBox>
+  <div
+    class="flex flex-col items-stretch justify-between h-full bg-gray-900"
+    id="container"
+  >
+    <div id="header" class="bg-gray-900 h-16 text-gray-400 px-10 flex justify-end items-center">
+      <div class="flex flex-row-reverse" *ngIf="activeUser$ | async as activeUser">
+        <img class="rounded-full" [src]="activeUser.image" />
+        <h1
+          class="mr-3 text-3xl font-medium tracking-wide text-opacity-75"
+        >
+          {{ activeUser.user }}
+        </h1>
+      </div>
+    </div>
+    <div class="chat-area">
+      <div class="absolute bottom-0 w-full px-10 py-4" #container>
+        <div class="text-lg text-white border-2 p-2 w-56 text-center mx-auto mb-8 tracking-widest">Room Established</div>
+        <div
+          class="flex text-gray-200 w-full my-2"
+          *ngFor="let chat of chatData$ | async"
+          [ngClass]="{
+            'justify-end': chat.isCurrentUser,
+            'justify-start': !chat.isCurrentUser
+          }"
+        >
+          <div
+            class="bg-gray-700 left-bubble bg-opacity-75 border border-gray-200 border-opacity-25 my-2 p-2 chats"
+            [ngClass]="{
+              'bg-blue-600': chat.isCurrentUser,
+              '': !chat.isCurrentUser
+            }"
+          >
+            {{ chat.message }}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="border-t border-blue-900 bg-gray-900 h-20 px-10 flex justify-center items-center"
+    >
+      <textarea
+        class="w-full h-12 px-3 py-3 align-middle inline-block border rounded bg-gray-100 overflow-auto"
+        placeholder="Type your message and press enter..."
+        [formControl]="messageInput"
+        (keyup.enter)="sendMessage($event)"
+      ></textarea>
+    </div>
+  </div>
+</ng-template>

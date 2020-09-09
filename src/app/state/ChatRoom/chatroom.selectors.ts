@@ -10,3 +10,8 @@ export const selectChatUserData = createSelector(
   chartRoomSelector,
   fromChatRoom.getAllUserChatData
 );
+
+export const selectLoaderState = createSelector(
+  chartRoomSelector,
+  fromChatRoom.getLoaderState
+)
