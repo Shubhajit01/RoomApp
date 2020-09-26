@@ -52,13 +52,12 @@ export class ChatRoomComponent implements OnInit {
   constructor(private store: Store<AppState>) {
     this.activeUser$ = this.store.pipe(select(selectActiveUser));
     this.chatData$ = this.store.pipe(select(selectChatUserData));
-    // this.showLoader$ = this.store.pipe(select(selectLoaderState));
+    this.showLoader$ = this.store.pipe(select(selectLoaderState));
   }
 
   ngOnInit() {
     this.messageInput = new FormControl('', [Validators.required]);
-    // this.store.dispatch(toggleLoader({ show: true }));
-    this.store.dispatch(loadUserChat({userName: 'abc'}));
+    this.store.dispatch(loadUserChat({ userName: 'abc' }));
   }
 
   sendMessage(event: KeyboardEvent) {

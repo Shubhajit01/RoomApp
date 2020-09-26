@@ -8,8 +8,8 @@
       [formControl]="userSearch"
       />
       <mat-icon class="text-gray-500 absolute">search</mat-icon>
-      <div class="suggestions overflow-auto mt-3 bg-white absolute p-3 w-full">
-        <div *ngFor="let user of users$ | async">
+      <div class="suggestions overflow-auto mt-3 bg-white absolute w-full">
+        <div *ngFor="let user of users$ | async" class="h-16 bg-gray-100 border flex items-center pl-4">
           {{ user.name }}
         </div>
       </div>

@@ -41,7 +41,7 @@ export const chatListReducer = createReducer(
     ...state,
     activeChat: selectedChat
   })),
-  on(chatListActions.loadChatList, (state, { chatList }) =>
+  on(chatListActions.chatListLoaded, (state, { chatList }) =>
     adapter.addMany(chatList, state)
   ),
   on(chatListActions.toggleSearchBox, (state) => ({

@@ -3,6 +3,7 @@
   <div
     class="flex flex-col items-stretch justify-between h-full bg-gray-900"
     id="container"
+
   >
     <div id="header" class="bg-gray-900 h-16 text-gray-400 px-10 flex justify-end items-center">
       <div class="flex flex-row-reverse" *ngIf="activeUser$ | async as activeUser">
@@ -14,6 +15,7 @@
         </h1>
       </div>
     </div>
+    <ng-container *ngIf="activeUser$ | async">
     <div class="chat-area">
       <div class="absolute bottom-0 w-full px-10 py-4" #container>
         <div class="text-lg text-white border-2 p-2 w-56 text-center mx-auto mb-8 tracking-widest">Room Established</div>
@@ -47,5 +49,6 @@
         (keyup.enter)="sendMessage($event)"
       ></textarea>
     </div>
+  </ng-container>
   </div>
 </ng-template>

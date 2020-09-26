@@ -6,8 +6,10 @@ export const selectChat = createAction(
   props<{ selectedChat: number }>()
 );
 
-export const loadChatList = createAction(
-  '[ChatList] Load List',
+export const loadChatList = createAction('[ChatList] Load List');
+
+export const chatListLoaded = createAction(
+  '[ChatList] List Loaded',
   props<{ chatList: Chat[] }>()
 );
 

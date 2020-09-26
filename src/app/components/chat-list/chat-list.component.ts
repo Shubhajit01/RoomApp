@@ -44,11 +44,7 @@ export class ChatListComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.store.dispatch(
-      loadChatList({
-        chatList: RECENT_CHATS
-      })
-    );
+    this.store.dispatch(loadChatList());
     this.searchBox = new FormControl('');
     this.searchBox.valueChanges
       .pipe(

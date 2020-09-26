@@ -4,6 +4,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserModule } from '@angular/platform-browser';
 import { ChatComponent } from './components/chat/chat.component';
 import { ChatListComponent } from './components/chat-list/chat-list.component';
+import { ChatListEffects } from './state/ChatList/chatlist.effects';
 import { ChatRoomComponent } from './components/chat-room/chat-room.component';
 import { ChatRoomEffects } from './state/ChatRoom/chatroom.effects';
 import { EffectsModule } from '@ngrx/effects';
@@ -54,7 +55,7 @@ import { reducers } from './state/index';
       url: `http://localhost:3000/`
     }),
     StoreModule.forRoot(reducers),
-    EffectsModule.forRoot([ChatRoomEffects]),
+    EffectsModule.forRoot([ChatRoomEffects, ChatListEffects]),
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       logOnly: environment.production
